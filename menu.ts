@@ -1,6 +1,6 @@
 import ler = require("readline-sync");
 //import { colors } from "./src/util/colors";
-import { Conta } from "./src/model/Conta";
+//import { Conta } from "./src/model/Conta";
 import { ContaCorrente } from "./src/model/ContaCorrente";
 import { ContaPoupanca } from "./src/model/ContaPoupanca";
 

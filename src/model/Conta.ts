@@ -83,17 +83,16 @@ export abstract class Conta {
       case 2:
         tipo = "Conta Poupança";
         break;
-        default:
-      tipo = "Tipo desconhecido";
+      default:
+        tipo = "Tipo desconhecido";
     }
-     console.log("\n\n*****************************************************");
-        console.log("Dados da Conta:");
-        console.log("*****************************************************");
-        console.log("Numero da Conta " + this._numero);
-        console.log("Agência: " + this._agencia);
-        console.log("Tipo da Conta: " + tipo);
-        console.log("Titular: " + this._titular);
-        console.log("Saldo: " + this._saldo.toFixed(2));
-
+    console.log("\n\n*****************************************************");
+    console.log("Dados da Conta:");
+    console.log("*****************************************************");
+    console.log("Numero da Conta " + this._numero);
+    console.log("Agência: " + this._agencia);
+    console.log("Tipo da Conta: " + tipo);
+    console.log("Titular: " + this._titular);
+    console.log("Saldo: " + this._saldo.toFixed(2));
   }
 }
